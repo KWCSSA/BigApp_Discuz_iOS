@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>YZSegMent</key>
-	<string>36,170,21</string>
+	<string>255,87,51</string>
 	<key>YZBBSName</key>
-	<string>BigApp</string>
+	<string>滑大论坛</string>
 	<key>YZBaseURL</key>
-	<string>http://bbs.bigappdemo.com</string>
+	<string>http://bbs.uwcssa.com</string>
 	<key>YZBasePath</key>
 	<string>api/mobile/iyz_index.php</string>
 	<key>BIGAPPVERSION</key>
@@ -15,7 +15,7 @@
 	<key>APPSTYLE</key>
 	<string>1</string>
 	<key>kAPP_DOWNLOAD_URL</key>
-	<string>https://itunes.apple.com/us/app/san-ti-she-qu/id997795570?l=zh&amp;ls=1&amp;mt=8</string>
+	<string>https://itunes.apple.com/us/app/%E6%BB%91%E5%A4%A7%E8%AE%BA%E5%9D%9B/id1116879016?l=zh&amp;ls=1&amp;mt=8</string>
 	<key>OFFLINE</key>
 	<string>0</string>
 	<key>YouZuLogin</key>

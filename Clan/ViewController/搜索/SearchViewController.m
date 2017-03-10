@@ -46,7 +46,7 @@
 - (void)addSearchView{
     _cancel = [[UILabel alloc]initWithFrame:CGRectMake(self.navigationController.navigationBar.right - 30 - 21, 0, 30, self.navigationController.navigationBar.height)];
     _cancel.top = 20;
-    _cancel.font = [UIFont systemFontOfSize:15.0f];
+    _cancel.font = [UIFont systemFontOfSize:13.0f];
     _cancel.textColor = [UIColor whiteColor];
     _cancel.text = @"取消";
     _cancel.userInteractionEnabled = YES;

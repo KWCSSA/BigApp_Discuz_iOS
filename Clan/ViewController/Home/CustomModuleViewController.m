@@ -512,7 +512,7 @@ static NSString *const customRecommendType = @"2";
     
     if (searchDic) {
         if ([searchDic[@"enable"] isEqualToString:@"1"]) {
-//            [self.navigationItem setRightBarButtonItem:[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"sousuoshouye"] style:UIBarButtonItemStylePlain target:self action:@selector(searchAction)] animated:NO];
+            [self.navigationItem setRightBarButtonItem:[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"sousuoshouye"] style:UIBarButtonItemStylePlain target:self action:@selector(searchAction)] animated:NO];
             for (NSDictionary *dic in searchDic[@"setting"]) {
                 if ([dic[@"key"] isEqualToString:@"forum"]) {
                     //论坛搜索
