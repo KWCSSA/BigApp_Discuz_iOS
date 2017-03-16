@@ -108,6 +108,7 @@
     NSLog(@"%f",_tempBtn.center.x);
     indicatorView.frame = CGRectMake(_tempBtn.center.x - 59/2, kVIEW_H(self)-3, 59, 3);
     [self addSubview:indicatorView];
+    [self tapAction:[self viewWithTag:1000]];
 }
 
 - (IBAction)tapAction:(id)sender

@@ -61,7 +61,6 @@
 
 - (void)buildUI
 {
-    self.title = @"消息提醒";
     [self setUpNaviButtons];
     BaseTableView *table = [[BaseTableView alloc]initWithFrame:CGRectMake(0, 0, kSCREEN_WIDTH, kSCREEN_HEIGHT-64) style:UITableViewStyleGrouped];
     if (_fromTabbar) {

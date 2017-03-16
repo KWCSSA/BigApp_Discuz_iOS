@@ -66,7 +66,6 @@
 
 - (void)buildUI
 {
-    self.title = @"论坛";
     if (!_isTabBarItem) {
         UIButton* leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
         leftButton.backgroundColor = [UIColor clearColor];
