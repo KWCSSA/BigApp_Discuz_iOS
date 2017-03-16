@@ -61,6 +61,7 @@
 
 - (void)buildUI
 {
+    self.navigationItem.title = @"消息提醒";
     [self setUpNaviButtons];
     BaseTableView *table = [[BaseTableView alloc]initWithFrame:CGRectMake(0, 0, kSCREEN_WIDTH, kSCREEN_HEIGHT-64) style:UITableViewStyleGrouped];
     if (_fromTabbar) {
@@ -347,7 +348,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return 120+15;
+    return 0; //changed
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
